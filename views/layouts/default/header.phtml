@@ -3,5 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Framework Básico</title>
+
+	<link rel="stylesheet" href="<?php echo $_layoutParams["route_css"]?>/style.css">
 </head>
 <body>
+	<div id="container">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Servicios</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Nosotros</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+			<div class="login">
+				Hola <?php echo $_SESSION["username"]; ?> | 
+				<a href="<?php echo APP_URL."/users/logout"; ?>">Salir</a>
+			</div>
+		</header>
