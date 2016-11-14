@@ -29,7 +29,7 @@ class Authorization
 		echo "
 			<script type='text/javascript'>
 			alert('Ha salido correctamente');
-			window.location='http://localhost/framework101/users/login';
+			window.location='http://localhost/framework/users/login';
 			</script>
 		";
 	}

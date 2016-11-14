@@ -6,11 +6,11 @@
 		<input type="text" name="username">
 	</p>
 	<p>
-		<label for="password">Password</label>
+		<label for="password">Contraseña</label>
 		<input type="password" name="password">
 	</p>
 	<p>
-		<label for="type_id">Types</label>
+		<label for="type_id">Tipo</label>
 		<select name="type_id" id="type_id">
 			<?php foreach ($types as $type): ?>
 				<option value="<?php echo $type["types"]["id"]; ?>">
