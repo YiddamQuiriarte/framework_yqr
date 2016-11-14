@@ -9,6 +9,7 @@ class Authorization
 			header("Location: ".APP_URL."/users/login");
 			exit;
 		}
+
 	}
 
 	public function login($user){

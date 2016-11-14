@@ -15,10 +15,11 @@ class Bootstrap
 			if (is_callable(array($controller, $method))) {
 				$method = $p->getMethod();	
 			}else{
-				$method = "index";
+				$method == "index";
 			}
 
 			if ($method=="login") {
+
 				
 			}else{
 				Authorization::logged();
